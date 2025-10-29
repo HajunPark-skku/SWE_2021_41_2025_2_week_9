@@ -1,12 +1,12 @@
 from typing import List
 
 # Skeleton code for even_list
-def even_list(int_list: List[int]) -> List[int]:
-    """
-    Determines if a number is even and return an even list.
-    """
-    # TODO: Implement even_list
-    pass
+def even_list(int_list):
+    result = []
+    for x in int_list:
+        if x % 2 == 0:
+            result.append(x)
+    return result
 
 # Skeleton code for sum_of_squares_of_even
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
